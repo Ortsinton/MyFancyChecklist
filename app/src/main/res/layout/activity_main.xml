@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity">
+    <fragment
+        android:name="orts.myfancychecklists.views.widgets.ItemListFragment"
+        android:id="@+id/checklist_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/elevation_low"
+        android:orientation="vertical">
+
+        </fragment>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/add_button"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@android:color/white"
+            android:background="@drawable/floating_button"
+            android:elevation="@dimen/elevation_high"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

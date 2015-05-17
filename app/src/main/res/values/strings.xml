@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Fancy Checklists</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- General -->
+
+    <!-- New List Form -->
+    <string name="title">Title</string>
+    <string name="default_checklist">My Checklist</string>
+    <string name="description">Description</string>
+    <string name="color">Color</string>
+    <string name="color_desc">Select the color of the checklist</string>
+    <string name="alarms">Alarms</string>
+    <string name="alarms_desc_no">No alarms set</string>
+    <string name="alarms_desc_yes">%d alarms set</string>
+    <string name="listing_mode">Listing mode</string>
+    <string name="listing_mode_desc_list">Checklist displayed as a list</string>
+    <string name="listing_mode_desc_card">Checklist displayed as a card list</string>
+</resources>
